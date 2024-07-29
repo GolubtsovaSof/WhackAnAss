@@ -48,7 +48,7 @@ function countDown(){
         clearInterval(countDowntimerId)
         clearInterval(timerId)
         timeLeft.textContent = '0'
-        alert('Игра закончена! Ты поймал ' + result +' Гриш из 60 возможных!')
+        alert('Игра закончена! Ты поймал ' + result +' Дим из 60 возможных!')
     }
 }
 
