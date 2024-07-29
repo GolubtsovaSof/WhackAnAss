@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+}
+#preload {
+    display: none;
+}
+.grid{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.square{
+    height:0;
+    width:27vh;
+    padding-bottom:27vh;
+    background-color:gray;
+    display: inline-block;
+}
+.result-box{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size: 3vh;
+}
+.mole{
+    background-size: contain;
+}
+@media screen and (max-width: 650px){
+    .square{
+        width:15vw;
+        padding-bottom:15vw;
+    }
+}
+@media screen and (min-height: 1000px){
+    .square{
+        width:15vw;
+        padding-bottom:15vw;
+    }
+}
+
+
